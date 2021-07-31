@@ -65,8 +65,8 @@ a {
   padding-bottom: 100px;
 }
 
-/* Section Title CSS */
 
+/*------------------- Section Title CSS ----------------------*/
 .section-title {
   position: relative;
   margin-bottom: 100px;
@@ -97,8 +97,8 @@ a {
   top: 38px;
 }
 
-/* Top Area CSS */
 
+/*--------------------------- Top Area CSS -------------------------*/
 .top-area {
   background-color: #635cdb;
   padding: 10px 0;
@@ -118,7 +118,8 @@ a {
   font-size: 14px;
 }
 
-/* Header Area CSS */
+
+/*------------------- Header Area CSS -----------------------*/
 
 .navbar-brand {
   text-transform: uppercase;
@@ -139,7 +140,6 @@ a {
   flex-direction: row;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 .navbar-nav ul li {
   position: relative;
@@ -215,7 +215,8 @@ a {
   transition: 0.3s;
 }
 
-/* Slider Area CSS */
+
+/*-------------------------- Slider Area CSS -------------------------*/
 
 .slider-area,
 .sliders,
@@ -274,7 +275,9 @@ a {
   background-color: #635cdb !important;
 }
 
-/* About Area CSS */
+
+
+/* -------------------- About Area CSS --------------------------------*/
 
 .about-content h4 {
   text-transform: capitalize;
@@ -330,7 +333,9 @@ a {
   bottom: 0;
 }
 
-/* Skill CSS */
+
+
+/*-------------------------- Skill CSS --------------------------------*/
 
 .skill-area {
   color: #fff;
@@ -384,8 +389,9 @@ a {
   height: 25px;
 }
 
-/* Services CSS */
 
+
+/*---------------------------- Services CSS --------------------------*/
 .single-service {
   text-align: center;
   box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
@@ -418,7 +424,9 @@ a {
   border-radius: 0;
 }
 
-/* Counter CSS */
+
+
+/*----------------------------- Counter CSS ----------------------------------*/
 
 .counter-area .col-xxl-3:nth-child(2n) .single-counter {
   background-color: #24283f;
@@ -453,7 +461,9 @@ a {
   font-weight: 500;
 }
 
-/* Team CSS */
+
+
+/*------------------------ Team CSS ---------------------------------*/
 
 .single-team {
   position: relative;
@@ -512,7 +522,9 @@ a {
   margin-bottom: 5px;
 }
 
-/* Testimonials CSS */
+
+
+/*------------------------------ Testimonials CSS -----------------------------------*/
 
 .testimonials-area .section-title {
   color: #fff;
@@ -548,7 +560,9 @@ a {
   background-color: #635cdb;
 }
 
-/* Blog CSS */
+
+
+/*------------------------- Blog CSS -----------------------------------*/
 
 .single-blog {
   border: 1px solid #eee;
@@ -573,7 +587,9 @@ a {
   margin-bottom: 30px;
 }
 
-/* CTA CSS */
+
+
+/*------------------------------- CTA CSS --------------------------------*/
 
 .cta-area {
   position: relative;
@@ -610,7 +626,9 @@ a {
   font-size: 26px;
 }
 
-/* Footer CSS */
+
+
+/*------------------------------- Footer CSS ------------------------------------*/
 
 .footer-area {
   padding: 60px 0;
@@ -667,7 +685,9 @@ a {
   margin-left: 10px;
 }
 
-/* Breadcumb CSS */
+
+
+/*--------------------------------- Breadcumb CSS ----------------------------------*/
 
 .breadcumb-area {
   background-color: #635cdb;
@@ -697,7 +717,9 @@ a {
   color: #fff;
 }
 
-/* Portfolio CSS */
+
+
+/*------------------------------------- Portfolio CSS ---------------------------------*/
 
 .portfolio-menu {
   list-style: none;
@@ -758,6 +780,7 @@ a {
   padding: 12px;
   border-radius: 50%;
   font-size: 18px;
+  color: #fff;
 }
 .portfolio-overlay h4 {
   text-transform: capitalize;
@@ -774,8 +797,51 @@ a {
   visibility: visible;
 }
 
-/* Gallery CSS */
 
+
+/*---------------------------------- Single-Portfolio CSS ----------------------------*/
+.single-portfolio h2{
+  text-transform: capitalize;
+  font-size: 34px;
+  margin-bottom: 16px;
+}
+.single-portfolio img{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+.single-portfolio p{
+  margin: 20px 0;
+}
+.title h4{
+  text-transform: capitalize;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.title{
+  margin-top: 30px;
+}
+.single-portfolio iframe{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 3px;
+  height: 350px;
+}
+.sidebar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar ul li{
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+/*---------------------------------- Gallery CSS ----------------------------*/
 .single-gallery img {
   width: 100%;
 }
@@ -822,7 +888,9 @@ a {
   border-radius: 50%;
 }
 
-/* Blog Details CSS */
+
+
+/*--------------------------- Blog Details CSS ---------------------------*/
 
 .blog-details h2 {
   text-transform: capitalize;
@@ -904,7 +972,9 @@ a {
   font-size: 16px;
 }
 
-/* Contact CSS */
+
+
+/*------------------------------ Contact CSS ---------------------------------*/
 
 .contact-address {
   text-align: center;

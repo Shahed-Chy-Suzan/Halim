@@ -54,6 +54,7 @@ $(document).ready(function(){
 });
 
 
+/* for Sticky Nav */
 $(window).load(function(){
     $(this).on('scroll', function(){
         if($(this).scrollTop() > 50){
