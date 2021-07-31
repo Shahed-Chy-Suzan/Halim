@@ -7,6 +7,7 @@ $(document).ready(function(){
         'autoplay': true
     });
 
+
     /* Testimonials Active */
     $(".testimonials").owlCarousel({
         'items': 3,
@@ -28,8 +29,10 @@ $(document).ready(function(){
         }
     });
 
+
     /* CounterUp Active */
     $('.counter').counterUp();
+
 
     // init Isotope
     var $grid = $('.portfolio-items').isotope();
@@ -44,6 +47,7 @@ $(document).ready(function(){
         $(this).addClass('active').siblings().removeClass('active');
     });
 
+    
     // Magnific Image Gallery
     $('.gallery').magnificPopup({
         type:'image',
