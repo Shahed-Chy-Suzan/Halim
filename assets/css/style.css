@@ -1041,3 +1041,23 @@ a {
   border: 1px solid #ddd;
   padding: 3px;
 }
+
+
+/*------------------------------ Scroll to Top CSS ---------------------------------*/
+.scroll-show {
+	position: fixed;
+	background-color: rgb(94, 92, 226);
+	color: #fff;
+	z-index: 2;
+	right: 50px;
+	bottom: 50px;
+	padding: 10px;
+	border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.scroll-show:hover {
+  background-color: red;
+	color: #fff;
+}

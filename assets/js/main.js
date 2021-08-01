@@ -73,3 +73,19 @@ $(window).load(function(){
     // Preloader
     $(".preloader").fadeOut();
 })
+
+
+//---------------------------------- Scroll to Top Active ------------------------//
+$(window).scroll(function(){
+  if($(this).scrollTop() > 200){
+    $('#scroll').addClass('scroll-show')
+  } else {
+    $('#scroll').removeClass('scroll-show')
+  }
+})
+
+$('#scroll').click(function(){
+  $('html, body').animate({
+    scrollTop:0
+  }, 500)
+})
