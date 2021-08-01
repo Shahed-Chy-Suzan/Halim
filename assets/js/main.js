@@ -47,7 +47,7 @@ $(document).ready(function(){
         $(this).addClass('active').siblings().removeClass('active');
     });
 
-    
+
     // Magnific Image Gallery
     $('.gallery').magnificPopup({
         type:'image',
@@ -58,8 +58,9 @@ $(document).ready(function(){
 });
 
 
-/* for Sticky Nav */
+/*------- for Sticky Nav ----&&---- Preloader ------------ */
 $(window).load(function(){
+    // Sticky Nav
     $(this).on('scroll', function(){
         if($(this).scrollTop() > 50){
             $('.header-area').addClass('sticky');
@@ -68,4 +69,7 @@ $(window).load(function(){
             $('.header-area').removeClass('sticky');
         }
     })
+
+    // Preloader
+    $(".preloader").fadeOut();
 })

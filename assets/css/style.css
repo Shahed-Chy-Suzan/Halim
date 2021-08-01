@@ -66,6 +66,26 @@ a {
 }
 
 
+
+/*---------------------- Preloader CSS -------------------------*/
+.preloader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+.preloader img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
 /*------------------- Section Title CSS ----------------------*/
 .section-title {
   position: relative;
